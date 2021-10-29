@@ -1,0 +1,7 @@
+.top-main-image {
+    height: 400px;
+    background-image: url("../img/img13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
