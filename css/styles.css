@@ -1,7 +1,30 @@
-.top-main-image {
+.bg-top-main-image {
     height: 400px;
     background-image: url("../img/img13.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.vh-50 {
+    height: 50Vh;
+}
+
+ul.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.list-inline li a {
+    width: 2.85714rem;
+    height: 2.85714rem;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
 }
