@@ -21,10 +21,20 @@ ul.list-inline {
 }
 
 .list-inline li a {
-    width: 2.85714rem;
-    height: 2.85714rem;
+    width: 40px;
+    height: 40px;
     border: 1px solid white;
     text-decoration: none;
     background-color: transparent;
     display: inline-block;
+    position: relative;
+}
+
+.list-inline li a svg {
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+    top: 25%;
+    left: 18%;
+    transform: translateY(-50%);
 }
