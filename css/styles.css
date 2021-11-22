@@ -38,3 +38,10 @@ ul.list-inline {
     left: 18%;
     transform: translateY(-50%);
 }
+
+footer .row-links .links {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+}
